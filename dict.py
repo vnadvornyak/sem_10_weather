@@ -1,6 +1,5 @@
 import openpyxl
 
-
 def create_dict():
     book = openpyxl.open('country_dict.xlsx')
     sheet = book.active
