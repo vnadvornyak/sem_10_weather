@@ -8,4 +8,4 @@ def weather(name: str):
     temp = a['main']['temp']  # температура
     feel = a['main']['feels_like']  # ощущается как
     wind = a['wind']['speed']  # ветер
-    return f'В этой стране сейчас {description}.\nСредняя температура {temp}. Ощущается как {feel}.\nСкорость ветра {wind}.'
+    return f'В этой стране сейчас {description}.\nСредняя температура {temp}. Ощущается как {feel}.\nСкорость ветра {wind} м/с.'
